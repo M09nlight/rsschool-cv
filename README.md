@@ -1,1 +1,1 @@
-# rsschool-cv
+https://M09nlight.github.io/rsschool-cv/cv
