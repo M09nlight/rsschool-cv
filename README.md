@@ -1,3 +1,3 @@
 # rsschool-cv
 
-MArkdown https://M09nlight.github.io/rsschool-cv/cv
+Markdown https://M09nlight.github.io/rsschool-cv/cv
