@@ -179,3 +179,10 @@ code pre {
     margin-top: -10px;
     padding-left: 30px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid rgb(141, 0, 0);
+}
