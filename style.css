@@ -28,10 +28,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
-    color: #4d2323;
+    color: rgb(48, 24, 24);
 }
 
 
@@ -39,6 +39,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
