@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Hurricane';
+    font-family: 'NotoSans-Italic';
     src: url("assets/fonts/NotoSans-Italic.ttf")
 }
 
@@ -11,24 +11,30 @@
 
 * {
     box-sizing: border-box;
+
 }
 
 html {
     scroll-behavior: smooth;
+
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 320px;
     min-height: 100vh;
-
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
 }
 
-.main, .footer, .header {
-    border: 1px solid rgb(107, 107, 107);
 
-}
 
 .container {
     max-width: 1440px;
@@ -36,8 +42,7 @@ body {
 }
 
 .header {
-    background: rgb(219, 88, 55);
-    border-radius: 10px;
+    border-bottom: 3px solid rgb(141, 0, 0);
 }
 
 .nav-list {
@@ -49,19 +54,128 @@ body {
     line-height: 10px;
     height: 10px;
     font: 18px Cabin, san-serif;
+    text-transform: uppercase;
 }
 
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
+    font-family: 'NotoSans-Italic', sans-serif;
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: color 0.5s;
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(141, 0, 0)
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px auto;
+}
+
+
+.section {
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgb(141, 0, 0);
+
+}
+
+
+.avatar {
+    border: 3px solid #351401;
+    border-radius: 50%;
+    max-width: 15%;
+}
+
+.section-name {
+    font-family: 'NotoSans-Italic', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8b3503;
+
+}
+
+.section-title {
+    font-family: 'NotoSans-Italic', sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8b3503;
+    border-bottom: 1px solid rgb(141, 0, 0);
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+
+
+.location {
+    background: url(assets/svg/location.svg) no-repeat;
+    background-size: 18px 18px;
+}
+
+.phone {
+    background: url(assets/svg/phone.svg) no-repeat;
+    background-size: 18px 18px;
+}
+
+.email {
+    background: url(assets/svg/email.svg) no-repeat;
+    background-size: 18px 18px;
+}
+
+.discord {
+    background: url(assets/svg/discord.svg) no-repeat;
+    background-size: 18px 18px;
+}
+
+.github {
+    background: url(assets/svg/github.svg) no-repeat;
+    background-size: 18px 18px;
+}
+
+.marker {
+    background: url(assets/svg/marker.svg) no-repeat;
+    background-size: 18px 18px;
+}
+
+code pre {
+    background: rgb(243, 243, 247);
+    border-radius: 50px;
+}
+
+.specialty {
+    margin-top: -10px;
+    padding-left: 30px;
 }
